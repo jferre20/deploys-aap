@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: bastion 
   gather_facts: false
   vars:
     ipam_api_url: http://ipam.jferre.local/api/ansible
